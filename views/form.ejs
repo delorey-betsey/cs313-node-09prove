@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Postage Rate Request</title>
+</head>
+<body>
+	<h1>Postage Rate Request Form</h1>
+	<form action="/rate" method="get">
+		<select name="type">
+			<option>Stamped</option>
+			<option>Metered</option>
+			<option>Flats</option>
+			<option>Packages</option>
+		</select>
+
+		<input type="text" name="weight">
+
+		<br><br>
+		<input type="submit" value="GET RATE">
+
+	</form>
+</body>
+</html>
